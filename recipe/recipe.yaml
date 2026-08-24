@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pelicanfs
-  version: "1.3.1"
+  version: "1.4.1"
   python_min: 3.12
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pelicanfs-${{ version }}.tar.gz
-  sha256: fc650efbaf2863eb072aab8624452a63f304dad472934402f862ad05e5b7a958
+  sha256: 21050a83939f8a54c976e5289bd511f0b2ea99d435449984b2c5c75baa345a12
 
 build:
   number: 0
